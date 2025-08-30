@@ -18,7 +18,7 @@ export default function List() {
           type:EDITTODO,
           payload:index
         })}>edit</button>
-        
+        <button>reset</button>
         </li>)
     })
     : <p>NO TODO ADDED YET...</p>
